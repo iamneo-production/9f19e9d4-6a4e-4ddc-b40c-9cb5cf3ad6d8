@@ -1,0 +1,12 @@
+/* Add this CSS in your stylesheet or component's styles */
+.table-cell {
+    padding: 10px 16px; /* Adjust padding as needed */
+    text-align: left;
+    width: 140px
+  }
+  
+  .table-header {
+    font-weight: bold;
+    text-align: left;
+  }
+  

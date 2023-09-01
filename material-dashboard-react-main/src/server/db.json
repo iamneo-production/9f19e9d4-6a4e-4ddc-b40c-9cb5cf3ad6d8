@@ -1,0 +1,246 @@
+{
+    "users": [
+      {
+        "id": "U1",
+        "name": "Vikash Soni",
+        "username": "vikashsoni",
+        "email": "vikashsoni@virtusa.com",
+        "role": "USER",
+        "password": "123456"
+      },
+      {
+        "id": "U2",
+        "name": "Karthick",
+        "username": "karthick",
+        "email": "karthick@virtusa.com",
+        "role": "USER",
+        "password": "123456"
+      },
+      {
+        "id": "U3",
+        "name": "Hans Raj",
+        "username": "hansraj",
+        "email": "hansraj@virtusa.com",
+        "role": "USER",
+        "password": "123456"
+      },
+      {
+        "id": "U4",
+        "name": "Tulasi Chimata",
+        "username": "tulasi",
+        "email": "tulasi@virtusa.com",
+        "role": "USER",
+        "password": "123456"
+      },
+      {
+        "id": "U5",
+        "name": "Shakti",
+        "username": "shakti",
+        "email": "shakti@virtusa.com",
+        "role": "USER",
+        "password": "123456"
+      }
+    ],
+    "inventory": [
+      {
+        "id": 101,
+        "name": "Dell MS116",
+        "desc": "1000Dpi USB Wired Optical Mouse",
+        "category": "Mouse",
+        "quantity": 10,
+        "isAllocated": "false",
+        "location": "Banglore",
+        "allocatedTo": null
+      },
+      {
+        "id": 102,
+        "name": "HP M120",
+        "desc": "Mult-Device Wireless Mouse/Six buttons",
+        "category": "Mouse",
+        "quantity": 8,
+        "isAllocated": "false",
+        "location": "Hyderabad",
+        "allocatedTo": null
+      },
+      {
+        "id": 103,
+        "name": "AmazonBasics Optical",
+        "desc": "USB Gaming Mouse with Led Effect",
+        "category": "Mouse",
+        "quantity": 16,
+        "isAllocated": "true",
+        "allocatedTo": "u1",
+        "location": "Banglore"
+      },
+      {
+        "id": 104,
+        "name": "Kreo Hawk",
+        "desc": "Gaming Mouse with Programmable Buttons",
+        "category": "Mouse",
+        "quantity": 20,
+        "isAllocated": "false",
+        "location": "Chennai",
+        "allocatedTo": null
+      },
+      {
+        "id": 105,
+        "name": "ZEBRONICS",
+        "desc": "68.5cms 27inch Widescreen Monitor",
+        "category": "Monitor",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u2",
+        "location": "Chennai"
+      },
+      {
+        "id": 106,
+        "name": "Acer",
+        "desc": "80 cm (32 inches) Advanced",
+        "category": "Monitor",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Banglore"
+      },
+      {
+        "id": 107,
+        "name": "TOSHIBA",
+        "desc": "80 cm (32 inches) V Series",
+        "category": "Monitor",
+        "quantity": 20,
+        "isAllocated": "true",
+        "location": "Hyderabad",
+        "allocatedTo": "U4"
+      },
+      {
+        "id": 108,
+        "name": "Samsung",
+        "desc": "24-inch(59.8cm) FHD, 1800R Curved Monitor",
+        "category": "Monitor",
+        "quantity": 20,
+        "isAllocated": "true",
+        "location": "Chennai",
+        "allocatedTo": "U5"
+      },
+      {
+        "id": 109,
+        "name": "JioBook 11",
+        "desc": "Mediatek 8788 Octa-core 2 GHz/ARM Mali G72",
+        "category": "Laptop",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Chennai"
+      },
+      {
+        "id": 110,
+        "name": "Acer Predator Helios 16 Gaming Laptop",
+        "desc": "Intel Core i9 13900HX/32 GB Ram/1 TB SSD",
+        "category": "Laptop",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u3",
+        "location": "Banglore"
+      },
+      {
+        "id": 111,
+        "name": "HP Pavilion Gaming",
+        "desc": "11th Gen Intel Core i5 15.6(39.6cm) FHD",
+        "category": "Laptop",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u3",
+        "location": "Hyderabad"
+      },
+      {
+        "id": 112,
+        "name": "MSI Cyborg 15",
+        "desc": "Intel 12th Gen. i5-12450H, 40CM FHD 144Hz",
+        "category": "Laptop",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Hyderabad"
+      },
+      {
+        "id": 113,
+        "name": "Amazon Basics Wired Over Ear",
+        "desc": "Gaming Headphone with Mic for PC",
+        "category": "Headphones",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Banglore"
+      },
+      {
+        "id": 114,
+        "name": "ZEBRONICS",
+        "desc": "Zeb-Thunder Bluetooth Wireless",
+        "category": "Headphones",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u4",
+        "location": "Chennai"
+      },
+      {
+        "id": 115,
+        "name": "Sony",
+        "desc": "Extra Bass MDR-XB450AP On-Ear Wired",
+        "category": "Headphones",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u4",
+        "location": "Hyderabad"
+      },
+      {
+        "id": 116,
+        "name": "Sony",
+        "desc": "MDR-ZX110AP Wired On-Ear",
+        "category": "Headphones",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Chennai"
+      },
+      {
+        "id": 117,
+        "name": "AmazonBasics",
+        "desc": "RJ45 Cat 7 High-Speed Gigabit Ethernet",
+        "category": "Lan Cable",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Hyderabad"
+      },
+      {
+        "id": 118,
+        "name": "CableCreation",
+        "desc": "15 Feet (5-Pack) CAT 5e Ethernet Patch Cable",
+        "category": "Lan Cable",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u5",
+        "location": "Banglore"
+      },
+      {
+        "id": 119,
+        "name": "AmazonBasics",
+        "desc": "RJ45 Cat-6 Ethernet Patch/LAN Cable",
+        "category": "Lan Cable",
+        "quantity": 20,
+        "isAllocated": "true",
+        "allocatedTo": "u5",
+        "location": "Banglore"
+      },
+      {
+        "id": 120,
+        "name": "FEDUS",
+        "desc": "Cat6 Heavy Duty Outdoor Cable 5M",
+        "category": "Lan Cable",
+        "quantity": 20,
+        "isAllocated": "false",
+        "allocatedTo": "",
+        "location": "Chennai"
+      }
+    ]
+  }

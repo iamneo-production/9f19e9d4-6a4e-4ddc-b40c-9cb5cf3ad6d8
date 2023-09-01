@@ -1,0 +1,162 @@
+/* StickyHeaderTable.css */
+
+.sticky-header-table {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    /* height: 100%; */
+
+}
+
+
+
+
+table {
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+}
+
+
+
+
+th,
+
+td {
+
+    padding: 8px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+.table-row th .table-row-2 {
+
+    color: white;
+
+
+
+
+}
+
+.white-arrow .MuiTableSortLabel-root.MuiTableSortLabel-active {
+
+    color: black;
+    /* Change this to your desired text color */
+
+}
+
+
+
+
+.white-arrow .MuiTableSortLabel-icon {
+
+    color: white;
+
+}
+
+
+
+
+.table-row th {
+
+    color: white;
+
+    background-color: black;
+
+}
+
+th {
+
+    position: sticky;
+
+    top: 0;
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+
+tr.selected {
+
+    background-color: #e0e0e0;
+
+}
+
+
+
+
+.action-buttons {
+
+    margin-top: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+
+
+button {
+
+    margin: 0 10px;
+
+    padding: 8px 16px;
+
+}
+
+
+
+
+.action-button {
+
+    padding: 4px 8px;
+
+    background-color: #007bff;
+
+    color: #fff;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+
+.odd-row {
+
+    background-color: white;
+    /* white */
+
+}
+
+
+
+
+.even-row {
+
+    background-color: #f0f8ff;
+    /* Light blue */
+
+}
+
+
+
+
+.selected {
+
+    background-color: #e0e0e0;
+
+}
